@@ -1,0 +1,216 @@
+[
+  {
+    "uuid": "77b57545-41f1-40e0-845b-d2fc45f15644",
+    "isbn10": "",
+    "isbn13": "978-1-449-37263-7",
+    "title": "CSS Secrets",
+    "authors": [
+      "Lea Verou"
+    ],
+    "image": "https://covers.oreillystatic.com/images/0636920031123/cat.gif",
+    "pages": 345
+  },
+  {
+    "uuid": "c6964354-448b-4d32-98e3-552ec4891d81",
+    "isbn10": "",
+    "isbn13": "",
+    "title": "React Native In Action",
+    "authors": [
+      "Nader Dabit"
+    ],
+    "image": "",
+    "pages": 321
+  },
+  {
+    "uuid": "1e4014b1-a551-4310-9f30-590c3140b695",
+    "isbn10": "1-61729-310-5",
+    "isbn13": "978-1-61729-310-8",
+    "title": "Get Programming with JavaScript",
+    "authors": [
+      "John R. Larsen"
+    ],
+    "image": "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9781/6172/9781617293108.jpg",
+    "pages": 393
+  },
+  {
+    "uuid": "486446b7-b2ae-42ec-998e-34547667c874",
+    "isbn10": "1617293857",
+    "isbn13": "978-1617293856",
+    "title": "React in Action (MEAP)",
+    "authors": [
+      "Mark Tielens Thomas"
+    ],
+    "image": "https://images-na.ssl-images-amazon.com/images/I/41np7DAqfpL._SX397_BO1,204,203,200_.jpg",
+    "pages": 238
+  },
+  {
+    "uuid": "b8087d97-e19a-48a0-b5cc-0dbcb9cf1e94",
+    "isbn10": "",
+    "isbn13": "978-0-671-21209-4",
+    "title": "How To Read A Book",
+    "authors": [
+      "Mortimer J. Adler",
+      "Charles Van Doren"
+    ],
+    "image": "https://www.paideia.org/wp-content/uploads/2013/12/how-to-read-a-book-cover.jpg",
+    "pages": 417
+  },
+  {
+    "uuid": "183d9e4a-2bdd-49aa-afd4-5ef6289956bb",
+    "isbn10": "simplifying-javascript-10-1",
+    "isbn13": "simplifying-javascript-13-1",
+    "title": "Simplifying JavaScript",
+    "authors": [
+      "Joe Morgan"
+    ],
+    "image": "",
+    "pages": 156
+  },
+  {
+    "uuid": "14d734a3-0641-46ec-9105-5a5836767e52",
+    "isbn10": "simplifying-javascript-10-2",
+    "isbn13": "simplifying-javascript-13-2",
+    "title": "Simplifying JavaScript",
+    "authors": [
+      "Joe Morgan"
+    ],
+    "image": "",
+    "pages": 105
+  },
+  {
+    "uuid": "1b032026-6d01-4458-b369-df5ea5060c00",
+    "isbn10": "0983517800-4.8",
+    "isbn13": "978-0983517801-4.8",
+    "title": "Digging Into WordPress 4.8",
+    "authors": [
+      "Chris Coyier",
+      "Jeff Starr"
+    ],
+    "image": "https://digwp.com/wp-content/themes/wp/img/book/book.jpg",
+    "pages": 342
+  },
+  {
+    "uuid": "89394655-cc9a-4c1e-8201-b570b9a949a4",
+    "isbn10": "html-css-10-1p",
+    "isbn13": "html-css-13-1p",
+    "title": "HTML and CSS Playground",
+    "authors": [
+      "Paul McFedries"
+    ],
+    "image": "",
+    "pages": 106
+  },
+  {
+    "uuid": "949c149c-daa3-4b20-a3ce-208c184c593d",
+    "isbn10": "1118026691",
+    "isbn13": "978-1-118-02669-4",
+    "title": "Professional JavaScript for Web Developers",
+    "authors": [
+      "Nicholas C. Zakas"
+    ],
+    "image": "https://images-na.ssl-images-amazon.com/images/I/518NO3X1X2L._SX394_BO1,204,203,200_.jpg",
+    "pages": 895
+  },
+  {
+    "uuid": "c83446f8-6648-4dc2-b78b-889586c139b8",
+    "isbn10": "0137043295",
+    "isbn13": "978-0137043293",
+    "title": "Essential Scrum: A Practical Guide to the Most Popular Agile Process",
+    "authors": [
+      "Kenneth S. Rubin"
+    ],
+    "image": "https://images-na.ssl-images-amazon.com/images/I/516Z45foGsL._SX381_BO1,204,203,200_.jpg",
+    "pages": 399
+  },
+  {
+    "uuid": "26506213-4017-4f51-a348-8a41a0371688",
+    "isbn10": "",
+    "isbn13": "9781617294280",
+    "title": "The Java Module System",
+    "authors": [
+      "Nicolai Parlog"
+    ],
+    "image": "https://images.manning.com/720/960/resize/book/5/b37273e-51ac-46a6-9254-f38a0ea74043/Parlog-Java-MEAP-HI.png",
+    "pages": 415
+  },
+  {
+    "uuid": "22bfa995-aa3d-4f5e-99e2-7361670e63bc",
+    "isbn10": "",
+    "isbn13": "9781617292897",
+    "title": "Testing Java Microservices",
+    "authors": [
+      "Alex Soto Bueno",
+      "Jason Porter",
+      "Andy Gumbrecht"
+    ],
+    "image": "https://images.manning.com/720/960/resize/book/d/e0d396c-e59f-4561-9e3e-673ea58215d9/Bueno-TJM-HI.png",
+    "pages": 312
+  },
+  {
+    "uuid": "f2e10e37-b0fc-4eff-93aa-3dff682cc388",
+    "isbn10": "",
+    "isbn13": "978-1-118-87164-4",
+    "title": "HTML & CSS design and build websites",
+    "authors": [
+      "Jon Duckett"
+    ],
+    "image": "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9781/1188/9781118871645.jpg",
+    "pages": 490
+  },
+  {
+    "uuid": "74fb4587-12c9-4462-9a62-0229efbc0a95",
+    "isbn10": "web-design-10-3p",
+    "isbn13": "web-design-13-3p",
+    "title": "Web Design Playground",
+    "authors": [
+      "Paul McFedries"
+    ],
+    "image": "",
+    "pages": 316
+  },
+  {
+    "uuid": "8ed2b1e8-906d-49d9-84a1-eb72cacd7d33",
+    "isbn10": "",
+    "isbn13": "",
+    "title": "Coaching pentru performanță",
+    "authors": [
+      "Sir John Whitmore"
+    ],
+    "image": "",
+    "pages": 332
+  },
+  {
+    "uuid": "221fac1a-2bae-4f33-9de7-c107993cd88b",
+    "isbn10": "",
+    "isbn13": "2E 1P Review",
+    "title": "Single Page Web Applications",
+    "authors": [
+      "Michael Mikowski",
+      "‎ Josh Powell"
+    ],
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51KT4qErFaL._SX397_BO1,204,203,200_.jpg",
+    "pages": 126
+  },
+  {
+    "uuid": "a9d65ea2-c239-44fd-8ad5-dd25c2536127",
+    "isbn10": "",
+    "isbn13": "978-1-4493-2824-5",
+    "title": "Developing Backbone.js Applications",
+    "authors": [
+      "Addy Osmani"
+    ],
+    "image": "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9781/4493/9781449328252.jpg",
+    "pages": 340
+  },
+  {
+    "uuid": "039d3e28-a67f-4d7b-afed-9de41846fd32",
+    "isbn10": "0674729013",
+    "isbn13": "9780674729018",
+    "title": "Make it Stick : The Science of Successful Learning",
+    "authors": [
+      "Peter C. Brown"
+    ],
+    "image": "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9780/6747/9780674729018.jpg",
+    "pages": 293
+  }
+]
