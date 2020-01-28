@@ -1,0 +1,19 @@
+{
+  "name": "library-node-api",
+  "version": "1.0.0",
+  "description": "Rest API that expose book manipulation endpoints",
+  "main": "app.js",
+  "repository": "git@github.com:vasileboris/library-node-api.git",
+  "author": "Vasile Boris <boris@espressoprogrammer.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  }
+}
