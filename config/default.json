@@ -1,0 +1,10 @@
+{
+  "persistence": {
+    "filesystem": {
+      "rootFolder": "/media/fastdata/data/Dropbox/library"
+    }
+  },
+  "node": {
+    "port": 9090
+  }
+}

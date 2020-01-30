@@ -1,5 +1,6 @@
 const express = require('express');
 const logger = require('morgan');
+const config = require('config');
 
 const booksRouter = require('./rest/BooksRouter');
 
@@ -11,5 +12,5 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use('/users/:user/books', booksRouter);
 
-const port = process.env.PORT || 9090;
+const { port } = config.get('node');
 app.listen(port, () => console.log(`Library Node.js API started on ${port}!`));
