@@ -1,9 +1,15 @@
+const FilesystemPersistence = require('./FilesystemPersistence');
+const filesystemConfiguration = require('./FilesystemConfiguration');
 const books = require('./books');
 
-const getUserBooks = (user, searchText) => {
-    return books;
-};
+class BooksPersistence extends FilesystemPersistence {
+    async getUserBooks(user, searchText){
+        return await this.getUserItems(user, searchText);
+    }
 
-module.exports = {
-    getUserBooks
-};
+    getStorageFolder(user) {
+        return `${filesystemConfiguration.getLibraryFolder()}/${user}/books`;
+    }
+}
+
+module.exports = BooksPersistence;

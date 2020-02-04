@@ -1,7 +1,11 @@
-const booksPersistence = require('../persistence/BooksPersistence');
+const BooksPersistence = require('../persistence/BooksPersistence');
 
-const getUserBooks = (user, searchText) => booksPersistence.getUserBooks(user, searchText);
+const booksPersistence = new BooksPersistence();
 
-module.exports = {
-    getUserBooks
-};
+class BooksService {
+    async getUserBooks(user, searchText) {
+        return await booksPersistence.getUserBooks(user, searchText);
+    }
+}
+
+module.exports = BooksService;

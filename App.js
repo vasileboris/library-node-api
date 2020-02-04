@@ -10,6 +10,10 @@ app.use(logger('tiny'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+app.param('user', (req, res, next, user) => {
+    req.user = user;
+    next();
+});
 app.use('/users/:user/books', booksRouter);
 
 const { port } = config.get('node');

@@ -1,10 +1,12 @@
 const express = require('express');
-const booksService = require('../service/BooksService');
+const BooksService = require('../service/BooksService');
 
+const booksService = new BooksService();
 const router = express.Router();
+
 router.get('/', (req, res) => {
-  const { user } = req.params;
-  res.send(booksService.getUserBooks(user));
+  const { user } = req;
+  booksService.getUserBooks(user).then(books => res.send(books));
 });
 
 module.exports = router;
