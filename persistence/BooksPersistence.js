@@ -10,6 +10,13 @@ class BooksPersistence extends FilesystemPersistence {
     getStorageFolder(user) {
         return `${filesystemConfiguration.getLibraryFolder()}/${user}/books`;
     }
+
+    applySearchCriteria(book, searchText) {
+        if(!searchText || !searchText.trim()) return true;
+
+        const content = `${book.title} ${book.authors.join(' ')}`;
+        return content.search(content) >= 0;
+    }
 }
 
 module.exports = BooksPersistence;
