@@ -15,7 +15,7 @@ class BooksPersistence extends FilesystemPersistence {
         if(!searchText || !searchText.trim()) return true;
 
         const content = `${book.title} ${book.authors.join(' ')}`;
-        return content.search(content) >= 0;
+        return content.toLowerCase().indexOf(searchText.toLowerCase()) >= 0;
     }
 }
 

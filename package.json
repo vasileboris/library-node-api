@@ -7,7 +7,8 @@
   "author": "Vasile Boris <boris@espressoprogrammer.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node App.js"
+    "start": "node App.js",
+    "debug": "node --inspect App.js"
   },
   "dependencies": {
     "config": "^3.2.5",
