@@ -1,10 +1,11 @@
-const BooksPersistence = require('../persistence/BooksPersistence');
+const BooksRedis = require('../redis/BooksRedis');
 
-const booksPersistence = new BooksPersistence();
+const booksRedis = new BooksRedis();
 
 class BooksService {
     async getUserBooks(user, searchText) {
-        return await booksPersistence.getUserBooks(user, searchText);
+        await booksRedis.storeUserBooks(user);
+        return await booksRedis.getUserBooks(user, searchText);
     }
 }
 
