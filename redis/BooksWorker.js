@@ -2,6 +2,7 @@ const config = require('config');
 const Bull = require('bull');
 
 const BooksRedis = require('../redis/BooksRedis');
+const redis = require('./RedisClient');
 
 const BOOKS_JOB_SCHEDULE_SECONDS = 10;
 
@@ -20,9 +21,11 @@ class BooksWorker {
     async scheduleBooksStoreJob(user) {
         const jobs = (await booksQueue.getJobs(['active', 'wait', 'delayed']))
             .filter(job => user === job.data.user);
-        //TODO - use incr to make sure that only one job is scheduled
-        if(!jobs.length) {
-            await booksQueue.add({user});
+        if(0 === jobs.length) {
+            const jobCount = await redis.incrAsync(booksRedis.buildBooksStoreJobCountKey(user));
+            if(1 === jobCount) {
+                await booksQueue.add({user});
+            }
         }
     }
 }
