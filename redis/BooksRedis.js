@@ -5,7 +5,6 @@ const BooksPersistence = require('../persistence/BooksPersistence');
 
 const BOOKS_KEY_PREFIX = "books";
 const BOOKS_TTL_MINUTES = 10;
-const BOOKS_WORKERS_COUNT_KEY = "books-workers-count";
 
 const buildBooksKey = user => `${BOOKS_KEY_PREFIX}:${user}`;
 
