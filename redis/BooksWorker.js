@@ -20,6 +20,7 @@ class BooksWorker {
     async scheduleBooksStoreJob(user) {
         const jobs = (await booksQueue.getJobs(['active', 'wait', 'delayed']))
             .filter(job => user === job.data.user);
+        //TODO - use incr to make sure that only one job is scheduled
         if(!jobs.length) {
             await booksQueue.add({user});
         }
